@@ -80,6 +80,8 @@ body.theme-dramatic::before{content:"";position:fixed;inset:0;z-index:0;pointer-
     linear-gradient(100deg, transparent 42%, color-mix(in srgb, var(--c) 55%, transparent) 50%, transparent 58%)}
 .cine-bar{position:fixed;left:0;right:0;height:6vh;background:#000;z-index:2;pointer-events:none}
 .cine-bar.top{top:0}.cine-bar.bottom{bottom:0}
+body.theme-dramatic .page-wrap{padding-top:6vh}
+body.theme-dramatic nav{top:6vh}
 body.theme-dramatic .gc{animation:dramaticGlow 4s ease-in-out infinite}
 @keyframes dramaticGlow{
   0%,100%{box-shadow:0 0 0 1px color-mix(in srgb, var(--c) 45%, transparent),0 0 30px -8px color-mix(in srgb, var(--c) 60%, transparent)}
