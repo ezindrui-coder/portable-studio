@@ -4,15 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Horror — Portable Learning Studio</title>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Creepster&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="theme-horror" style="--c:#6d4fd6">
+<div class="fog fog1"></div>
+<div class="fog fog2"></div>
+<div class="page-wrap">
 <nav aria-label="Sections"><a href="index.html">Home</a><a href="index.html#play">How to play</a><a href="index.html#tutorial">Tutorial</a><a href="index.html#cards" class="current">Cards</a></nav>
 <main>
 <section>
-<article class="gc" style="--c:#6d4fd6">
-<header><h3>Horror</h3><small>Mood: Fear • Suspense • Unsettling</small></header>
+<article class="gc">
+<header><h3 class="horror-title">Horror</h3><small>Mood: Fear • Suspense • Unsettling</small></header>
 <div class="body">
 <dl>
 <dt>Mission</dt><dd>Create a lighting setup that transforms the subject into a frightening or suspenseful scene.</dd>
@@ -28,13 +31,22 @@
 <li>High contrast, with most of the frame left in darkness.</li>
 <li>A cool or tinted colour such as green, blue or purple.</li>
 </ul>
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="Answer walkthrough" allowfullscreen></iframe>
+</div>
 </div>
 </div>
 </article>
+<div class="submit">
+<h4>Submit your photo</h4>
+<p>Fill in your name, ID and class, then upload your final photo for this card.</p>
+<a class="form-btn" href="https://forms.gle/HwCCxJdiTN3s4n898" target="_blank" rel="noopener">Open the submission form ↗</a>
+</div>
 <a class="back" href="index.html#cards">← Back to all cards</a>
 </section>
 </main>
 <footer>Portable Learning Studio</footer>
+</div>
 <script src="reveal.js"></script>
 </body>
 </html>
