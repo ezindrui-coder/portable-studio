@@ -139,7 +139,7 @@ ol.steps b{display:block}
 .light-section .video-wrap{max-width:680px}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .team-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
-.team-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 18px;text-align:center}
+.team-card{background:#D4D8D8;border:1px solid var(--line);border-radius:16px;padding:22px 18px;text-align:center}
 .team-photo{display:block;width:72px;height:72px;border-radius:50%;object-fit:cover;background:#D4D8D8;margin:0 auto 12px}
 .team-card h4{margin:0 0 6px;font-size:1.05rem}
 .team-role{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:999px;margin-bottom:10px}
