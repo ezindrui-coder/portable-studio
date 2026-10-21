@@ -181,5 +181,5 @@ ol.steps b{display:block}
 .submit p{color:var(--mute);margin:0 0 14px}
 .form-btn{display:inline-flex;align-items:center;gap:8px;background:var(--lamp);color:#1b1730;font-weight:800;padding:14px 24px;border-radius:999px;text-decoration:none;font-size:1.05rem}
 .form-btn:hover{filter:brightness(1.05)}
-footer{margin-top:56px;padding:28px 20px;text-align:center;color:var(--mute);border-top:1px solid var(--line)}
+footer{margin-top:56px;padding:28px 20px;text-align:center;color:#323434;border-top:1px solid var(--line)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
