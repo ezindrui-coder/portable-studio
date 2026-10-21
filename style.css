@@ -133,6 +133,8 @@ ol.steps b{display:block}
 .tip b{display:block}
 .light-sections{display:flex;flex-direction:column;gap:28px}
 .light-section h3{margin:0 0 10px;font-size:1.2rem;color:#000}
+.light-desc{margin:0 0 12px;color:var(--mute)}
+.light-section .video-wrap{max-width:680px}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .team-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
 .team-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 18px;text-align:center}
